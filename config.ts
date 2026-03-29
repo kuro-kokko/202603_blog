@@ -10,7 +10,7 @@ export const config: SiteConfig = {
     enabled: true,
     name: 'Your Name',
     bio: 'ここに自己紹介文を書きます。',
-    avatar: '/assets/avatar.png',
+    // avatar: '/assets/avatar.png',
     links: [
       { label: 'GitHub', url: 'https://github.com/' },
       { label: 'X (Twitter)', url: 'https://x.com/' },
