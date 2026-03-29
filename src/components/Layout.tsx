@@ -16,8 +16,10 @@ export function Layout({ config, title, description, url, children, sidebar }: L
   const lang = config.language ?? 'ja'
   const fullUrl = `${config.baseUrl.replace(/\/$/, '')}${url}`
 
+  const theme = config.theme ?? 'choco-mint'
+
   return (
-    <html lang={lang}>
+    <html lang={lang} data-theme={theme}>
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

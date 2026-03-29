@@ -122,6 +122,8 @@ export interface SiteConfig {
   backlinks?: {
     position?: 'below' | 'sidebar'
   }
+
+  theme?: 'orange' | 'choco-mint'
 }
 
 // ---------------------------------------------------------------------------

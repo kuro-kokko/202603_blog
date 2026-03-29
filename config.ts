@@ -31,4 +31,6 @@ export const config: SiteConfig = {
   backlinks: {
     position: 'below',
   },
+
+  theme: 'choco-mint',
 }
